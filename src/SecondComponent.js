@@ -1,8 +1,8 @@
 import React from "react";
 
 const SecondComponent = () => {
-  //const libros = ["Hary Potter", "Games of Thrones", "Clean Code"];
-  const libros = ["harry poter"];
+ const libros = ["Hary Potter", "Games of Thrones", "Clean Code"];
+  //const libros = [];
   return (
     <div className="segundo-componente">
         <h1>Listado de Libros</h1>

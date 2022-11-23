@@ -2,8 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import MiComponente from './micomponente';
 import SecondComponent from './SecondComponent';
+import TercerComponente from './TercerComponente';
 
 function App() {
+  const ficha = {
+    altura: "178cm",
+    peso: "170lb"
+  }
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -13,6 +19,8 @@ function App() {
         </p>
         {/*Cargar mi componenete */}
         <div className='componentes'>
+          <hr/>
+          <TercerComponente name="Juan" lastname="Quiroz" ficha = {ficha}></TercerComponente>
           <hr/>
           <SecondComponent></SecondComponent>
            <hr/>
