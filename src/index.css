@@ -15,3 +15,12 @@ code {
 ul{
  text-align: left;
 }
+
+#caja{
+  width: 200px;
+  height: 200px;
+  border:5px solid white;
+  background-color: aqua;
+  text-align: center;
+  line-height: 115px;
+}
