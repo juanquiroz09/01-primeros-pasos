@@ -13,6 +13,14 @@ const EventosComponente = () => {
     console.log("has " + action);
   };
 
+  const estasDentro = () => {
+    console.log("Estás dentro del Input, introduce tu nombre")
+  }
+
+  const estasFuera = () => {
+    console.log("Estas Fuera del Input")
+  }
+
   return (
     <div>
       <h1>Eventos en React</h1>
@@ -31,7 +39,13 @@ const EventosComponente = () => {
         {/*Evento onMouseEnter on MouseLeave */}
         Pasa por encima
       </div>
-          </div>
+      <p>
+        <input type="text" onFocus={estasDentro}
+        onBlur={estasFuera}
+         placeholder="Introduce tu nombre"/>
+      </p>
+
+    </div>
   );
 };
 
